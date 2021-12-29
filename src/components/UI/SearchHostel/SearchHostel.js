@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 import NavBar from "../../Navigation/NavBar/NavBar";
 
-import hotelIcon from "../../../assets/img/city.png";
-import pinIcon from "../../../assets/img/pin.png";
+import assets from "../../../assets/index";
 
 const SearchHostelWrapper = styled.div`
     padding: 45px 70px;
 
     & .intro-header {
         font-family: "DM Serif Display";
-        font-size: 4.3rem;
+        font-size: 4.5rem;
         font-weight: 400;
         line-height: 6rem;
         margin-bottom: 30px;
@@ -19,9 +18,9 @@ const SearchHostelWrapper = styled.div`
 
     & .intro-text {
         color: #a5a5a5;
-        font-size: 1.1rem;
-        font-weight: 400;
-        line-height: 1.7rem;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.8rem;
     }
 `;
 
@@ -35,12 +34,13 @@ const StatsWrapper = styled.div`
 
 const Stat = styled.div`
     align-items: center;
+    cursor: pointer;
     display: flex;
 
     > .icon {
         align-items: center;
         background: #ffffff;
-        border: 1px solid #d2d2d2;
+        border: 1px solid #e3e3e3;
         border-radius: 50%;
         display: grid;
         height: 45px;
@@ -49,12 +49,12 @@ const Stat = styled.div`
         width: 45px;
 
         & > img {
-            width: 25px;
+            width: 22px;
         }
     }
 
     :last-child {
-        margin-left: 60px;
+        margin-left: 40px;
     }
 `;
 
@@ -76,13 +76,13 @@ const SearchHostel = () => {
             <StatsWrapper>
                 <Stat>
                     <div className="icon">
-                        <img src={hotelIcon} alt="Back Button" />
+                        <img src={assets.icons.houseIconBlue} alt="" />
                     </div>
                     <p><b>720</b> Apartments</p>
                 </Stat>
                 <Stat>
                     <div className="icon">
-                        <img src={pinIcon} alt="Back Button" />
+                        <img src={assets.icons.pinIconBlue} alt="" />
                     </div>
                     <p><b>3</b> branches in Indonesia</p>
                 </Stat>

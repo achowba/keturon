@@ -3,7 +3,7 @@ import styled from "styled-components";
 const NavBarWrapper = styled.div`
     display: flex;
     justify-content: space-between;
-    padding-right: 100px;
+    padding-right: 75px;
 
     & > .links {
         display: flex;
@@ -12,7 +12,7 @@ const NavBarWrapper = styled.div`
         > a {
             font-size: 1rem;
             margin-right: 40px;
-            color: #555555;
+            color: #777777;
         }
 
         > a.active {
@@ -20,8 +20,6 @@ const NavBarWrapper = styled.div`
             font-weight: bold;
         }
     }
-
-    /* & > .links  */
 `;
 
 const NavBar = () => {
@@ -33,10 +31,9 @@ const NavBar = () => {
                 <a href="##">Blog</a>
                 <a href="##">Support</a>
             </div>
-
-            <span className="btn-login">
+            <div className="btn-login">
                 <a href="##">LOGIN</a>
-            </span>
+            </div>
         </NavBarWrapper>
     )
 };
