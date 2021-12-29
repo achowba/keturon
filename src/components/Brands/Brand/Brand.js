@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const BrandWrapper = styled.div`
-    background-image: ${({props}) => `url(${props.logoSrc})`};
+    background-image: ${({logoSrc}) => `url(${logoSrc})`};
     background-position: left;
     background-repeat: no-repeat;
     background-size: 70%;
@@ -27,7 +27,7 @@ const BrandWrapper = styled.div`
 
 const Brand = (props) => {
     return (
-        <BrandWrapper props={{...props}}>
+        <BrandWrapper {...props}>
             <div className="overlay"></div>
         </BrandWrapper>
     )

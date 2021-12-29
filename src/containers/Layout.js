@@ -8,7 +8,7 @@ const LayoutWrapper = styled.div`
     display: grid;
 
     > .content-wrapper {
-        padding: 40px 130px;
+        padding: 50px 130px;
     }
 `;
 
