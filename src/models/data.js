@@ -11,14 +11,12 @@ const DATA = {
             id: 2,
             name: 'Pasuruan',
             imgSrc: 'https://static.displate.com/857x1200/displate/2020-08-31/91895f1f87773f95db4b42bccc397d99_c63dab50844d70197d9bb781eeefe14c.jpg',
-            // imgSrc: 'https://images.unsplash.com/photo-1605257992086-60a8ae13e4f7',
             hotel: '20 Hotel',
             apartment: '20 Apartment'
         },
         {
             id: 3,
             name: 'Malang',
-            // imgSrc: 'https://images.unsplash.com/photo-1488707872600-5507977fe355',
             imgSrc: 'https://www.communitylegalsocal.org/wp-content/uploads/2021/05/Picture1-1024x491-1.png',
             hotel: '20 Hotel',
             apartment: '20 Apartment'

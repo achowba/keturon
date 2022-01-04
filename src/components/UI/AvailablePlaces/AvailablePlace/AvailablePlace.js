@@ -3,11 +3,26 @@ import styled from "styled-components";
 const StyledAvailablePlace = styled.div`
     cursor: pointer;
 
-    :first-child {
+    :nth-child(1) {
         grid-column-start: span 2;
 
         > .img {
             background-position: center;
+        }
+
+        h2 {
+            font-size: 1.7rem !important;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.1rem !important;
+        }
+    }
+
+    :nth-child(2) {
+        > .img {
+            background-position: center -160px;
         }
     }
 
@@ -26,17 +41,6 @@ const StyledAvailablePlace = styled.div`
         justify-content: space-between;
         padding: 30px 40px 25px 40px;
         width: calc(100% - 80px);
-
-        .city-surabaya {
-            h2 {
-                font-size: 1.7rem !important;
-                font-weight: 600;
-            }
-
-            p {
-                font-size: 1.1rem !important;
-            }
-        }
 
         > .text {
             h2 {
