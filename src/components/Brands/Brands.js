@@ -9,6 +9,7 @@ const BrandsWrapper = styled.div`
     gap: 20px;
     grid-template-columns: repeat(5, 1fr);
     margin-bottom: 40px;
+    padding: 50px 130px 0 130px;
 `;
 
 const Brands = () => {

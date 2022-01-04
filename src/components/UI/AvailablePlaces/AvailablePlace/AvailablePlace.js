@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-const AvailablePlaceWrapper = styled.div`
+const StyledAvailablePlace = styled.div`
+    cursor: pointer;
+
     :first-child {
         grid-column-start: span 2;
 
@@ -55,7 +57,7 @@ const AvailablePlaceWrapper = styled.div`
 
 const AvailablePlace = (props) => {
     return (
-        <AvailablePlaceWrapper {...props}>
+        <StyledAvailablePlace {...props}>
             <div className="img"></div>
             <div className="body">
                 <div className={`city-${props.name.toLowerCase()} text`}>
@@ -64,7 +66,7 @@ const AvailablePlace = (props) => {
                 </div>
                 <div className="link-view">&gt;</div>
             </div>
-        </AvailablePlaceWrapper>
+        </StyledAvailablePlace>
     )
 }
 

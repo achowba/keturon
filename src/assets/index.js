@@ -5,6 +5,7 @@ import pinIconWhite from "./img/pin-white.png";
 
 // images
 import lighthouse from "./img/lighthouse.jpg";
+import parusuan from "./img/pasuruan.png";
 
 // logos
 import airbnbLogo from "./img/logos/airbnb.svg";
@@ -15,7 +16,8 @@ import oyoLogo from "./img/logos/oyo-rooms.svg";
 
 const assets = {
     images: {
-        lighthouse
+        lighthouse,
+        parusuan
     },
     icons: {
         pinIconWhite,
@@ -28,7 +30,7 @@ const assets = {
         travelokaLogo,
         redDoorzLogo,
         oyoLogo,
-    }
+    },
 }
 
 export default assets;
