@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Landing from "./Landing/Landing";
 import Brands from "../components/Brands/Brands";
 import Facilities from "../components/Facilities/Facilities";
-import CompanyProfile from "../components/CompanyProfile/CompanyProfile";
 import AvailablePlaces from "../components/AvailablePlaces/AvailablePlaces";
+import CompanyProfile from "../components/CompanyProfile/CompanyProfile";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 const LayoutWrapper = styled.div`
     > .test {
@@ -22,6 +23,7 @@ const Layout = () => {
             <AvailablePlaces />
             <Facilities />
             <CompanyProfile />
+            <Testimonials />
         </LayoutWrapper>
     )
 };

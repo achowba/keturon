@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
+// assets
 import assets from "../../assets/index";
+
+// components
 import * as Text from "../UI/Text/Text";
 import ButtonLink from "../UI/ButtonLink/ButtonLink";
-
-// https://player.vimeo.com/external/520542055.sd.mp4?s=44227f7012af6bf6e051559dd6b3a031cebfdb2a&profile_id=165&oauth2_token_id=57447761
 
 const StyledCompanyProfile = styled.div`
     background: #f6f6f6;

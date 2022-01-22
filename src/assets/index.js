@@ -3,8 +3,11 @@ import houseIconBlue from "./img/icons/house.png";
 import pinIconBlue from "./img/icons/pin-blue.png";
 import pinIconWhite from "./img/icons/pin-white.png";
 import playIcon from "./img/icons/play-button.png";
+import quoteIcon from "./img/icons/left-quotes-sign.png";
+import starIcon from "./img/icons/star.png";
 
 // images
+import baronZemo from "./img/baron_zemo.png";
 import lighthouse from "./img/lighthouse.jpg";
 import parusuan from "./img/pasuruan.png";
 
@@ -24,10 +27,13 @@ const assets = {
         pinIconBlue,
         pinIconWhite,
         playIcon,
+        quoteIcon,
+        starIcon,
     },
     images: {
         lighthouse,
         parusuan,
+        baronZemo,
     },
     logos: {
         airbnbLogo,

@@ -1,3 +1,6 @@
+// assets
+import assets from "../assets/index";
+
 const DATA = {
     places: [
         {
@@ -47,7 +50,65 @@ const DATA = {
             imgSrc: 'https://images.unsplash.com/photo-1549407704-ec62ce8c2827',
             description: '1 table',
         },
-    ]
+    ],
+    testimonials: [
+        {
+            id: 1,
+            rating: 4.7,
+            name: 'Sarah Aprillia Putri',
+            authorImg: 'https://images.pexels.com/photos/1904692/pexels-photo-1904692.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+            details: `
+                Lorem ipsum dolor sit adipiscing elit. Dis mus tortor
+                est, ullamcorper eu egestas condimentum. laculis
+                lobortis maecenas id quam aliquam, ut. Diam nec
+                viverra neque ultrices amet. Rhoncus condimentum
+                ut tellus blandit. Pellentesque viverra mu vulputate
+                sagittis.
+            `,
+        },
+        {
+            id: 2,
+            rating: 4.7,
+            name: 'Wildan Wari',
+            authorImg: 'https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+            details: `
+                Lorem ipsum dolor sit adipiscing elit. Dis mus tortor
+                est, ullamcorper eu egestas condimentum. laculis
+                lobortis maecenas id quam aliquam, ut. Diam nec
+                viverra neque ultrices amet. Rhoncus condimentum
+                ut tellus blandit. Pellentesque viverra mu vulputate
+                sagittis.
+            `,
+        },
+        {
+            id: 3,
+            rating: 4.7,
+            name: 'Baron Zemo',
+            authorImg: assets.images.baronZemo,
+            details: `
+                Lorem ipsum dolor sit adipiscing elit. Dis mus tortor
+                est, ullamcorper eu egestas condimentum. laculis
+                lobortis maecenas id quam aliquam, ut. Diam nec
+                viverra neque ultrices amet. Rhoncus condimentum
+                ut tellus blandit. Pellentesque viverra mu vulputate
+                sagittis.
+            `,
+        },
+        {
+            id: 4,
+            rating: 4.7,
+            name: 'Lex Luthor',
+            authorImg: 'https://thispersondoesnotexist.com/image',
+            details: `
+                Lorem ipsum dolor sit adipiscing elit. Dis mus tortor
+                est, ullamcorper eu egestas condimentum. laculis
+                lobortis maecenas id quam aliquam, ut. Diam nec
+                viverra neque ultrices amet. Rhoncus condimentum
+                ut tellus blandit. Pellentesque viverra mu vulputate
+                sagittis.
+            `,
+        },
+    ],
 };
 
 export default DATA;

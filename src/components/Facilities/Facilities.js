@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-// assets
+// data
 import DATA from "../../models/data";
 
 // components
@@ -12,7 +12,6 @@ const StyledFacilities = styled.div`
     background: #f6f6f6;
     margin-top: -112px;
     padding: 250px 130px 50px 130px;
-    /* z-index: 10; */
 
     > .facilities-info {
         text-align: center;
