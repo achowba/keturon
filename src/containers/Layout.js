@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 import Landing from "./Landing/Landing";
 import Brands from "../components/Brands/Brands";
-import Facilities from "../components/UI/Facilities/Facilities";
-import AvailablePlaces from "../components/UI/AvailablePlaces/AvailablePlaces";
+import Facilities from "../components/Facilities/Facilities";
+import CompanyProfile from "../components/CompanyProfile/CompanyProfile";
+import AvailablePlaces from "../components/AvailablePlaces/AvailablePlaces";
 
 const LayoutWrapper = styled.div`
     > .test {
@@ -20,7 +21,7 @@ const Layout = () => {
             <Brands />
             <AvailablePlaces />
             <Facilities />
-            <div className="test"></div>
+            <CompanyProfile />
         </LayoutWrapper>
     )
 };

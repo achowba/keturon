@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import Search from "../../components/UI/Search/Search";
-import SearchHostel from '../../components/UI/SearchHostel/SearchHostel';
-import LandingHostel from '../../components/UI/LandingHostel/LandingHostel';
+import Search from "../../components/Search/Search";
+import SearchHostel from '../../components/SearchHostel/SearchHostel';
+import LandingHostel from '../../components/LandingHostel/LandingHostel';
 
 const LandingWrapper = styled.div`
     display: grid;

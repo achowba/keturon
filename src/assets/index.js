@@ -1,7 +1,8 @@
 // icons
-import houseIconBlue from "./img/house.png";
-import pinIconBlue from "./img/pin-blue.png";
-import pinIconWhite from "./img/pin-white.png";
+import houseIconBlue from "./img/icons/house.png";
+import pinIconBlue from "./img/icons/pin-blue.png";
+import pinIconWhite from "./img/icons/pin-white.png";
+import playIcon from "./img/icons/play-button.png";
 
 // images
 import lighthouse from "./img/lighthouse.jpg";
@@ -14,23 +15,30 @@ import travelokaLogo from "./img/logos/traveloka.svg";
 import redDoorzLogo from "./img/logos/reddoorz.png";
 import oyoLogo from "./img/logos/oyo-rooms.svg";
 
+// videos
+import companyVideo from "./video/company_profile.mp4";
+
 const assets = {
+    icons: {
+        houseIconBlue,
+        pinIconBlue,
+        pinIconWhite,
+        playIcon,
+    },
     images: {
         lighthouse,
-        parusuan
-    },
-    icons: {
-        pinIconWhite,
-        pinIconBlue,
-        houseIconBlue,
+        parusuan,
     },
     logos: {
         airbnbLogo,
         bookingComLogo,
-        travelokaLogo,
-        redDoorzLogo,
         oyoLogo,
+        redDoorzLogo,
+        travelokaLogo,
     },
+    videos: {
+        companyVideo,
+    }
 }
 
 export default assets;
