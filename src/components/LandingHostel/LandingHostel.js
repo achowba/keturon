@@ -3,6 +3,9 @@ import styled from "styled-components";
 // assets
 import assets from '../../assets/index';
 
+// components
+import Logo from '../UI/Logo/Logo';
+
 const LandingHostelWrapper = styled.div`
     align-content: space-between;
     background: url(${assets.images.lighthouse});
@@ -25,7 +28,7 @@ const LandingHostelWrapper = styled.div`
 const LandingHostel = () => {
     return (
         <LandingHostelWrapper>
-            <div className="brand">Keturon</div>
+            <Logo fontColor="#ffffff" />
         </LandingHostelWrapper>
     )
 };

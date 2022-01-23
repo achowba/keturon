@@ -6,6 +6,7 @@ import Facilities from "../components/Facilities/Facilities";
 import AvailablePlaces from "../components/AvailablePlaces/AvailablePlaces";
 import CompanyProfile from "../components/CompanyProfile/CompanyProfile";
 import Testimonials from "../components/Testimonials/Testimonials";
+import Footer from "../components/Footer/Footer";
 
 const LayoutWrapper = styled.div`
     > .test {
@@ -24,6 +25,7 @@ const Layout = () => {
             <Facilities />
             <CompanyProfile />
             <Testimonials />
+            <Footer />
         </LayoutWrapper>
     )
 };

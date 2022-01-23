@@ -15,7 +15,7 @@ const StyledTestimonials = styled.div`
         display: grid;
         gap: 200px;
         grid-template-columns: 1fr 1fr;
-        padding: 100px 0 0 130px;
+        padding: 100px 0 110px 130px;
 
         .info {
             align-self: center;
@@ -27,16 +27,14 @@ const StyledTestimonials = styled.div`
     }
 
     .testimonials-wrapper {
-        padding: 0 0 0 130px;
-        background: transparent;
+        background: linear-gradient(180deg, #0f1f31 50%, #ffffff 50%);
         display: grid;
         gap: 45px;
         grid-auto-columns: 600px;
         grid-auto-flow: column;
         overflow-x: scroll;
-        margin-bottom: 30px;
+        padding: 0 45px 120px 130px;
         scrollbar-width: none;
-        transform: translateY(115px);
         -ms-overflow-style: none;
 
         ::-webkit-scrollbar {

@@ -5,6 +5,7 @@ import assets from "../../../assets/index";
 
 const StyledTestimonial = styled.div`
     background-color: #ffffff;
+    box-shadow: 0px 30px 90px -20px #0f1f3140;
     padding: 70px 50px 50px 50px;
 
     > img {
