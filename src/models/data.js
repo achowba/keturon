@@ -13,7 +13,7 @@ const DATA = {
         {
             id: 2,
             name: 'Pasuruan',
-            imgSrc: 'https://static.displate.com/857x1200/displate/2020-08-31/91895f1f87773f95db4b42bccc397d99_c63dab50844d70197d9bb781eeefe14c.jpg',
+            imgSrc: 'https://res.cloudinary.com/achowba/image/upload/v1672820525/Dev/keturon/pasuruan.png',
             hotel: '20 Hotel',
             apartment: '20 Apartment'
         },
